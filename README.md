@@ -10,8 +10,8 @@ This is the course project for the Getting and Cleaning Data course on Coursera.
 
 2. Download the dataset if it does not alread exisit in the working directory
          
-          * Check if zip file has already been downloaded to the working directory?
-          * Check if the contents of the zip file have been extracted?
+         * Check if zip file has already been downloaded to the working directory?
+         * Check if the contents of the zip file have been extracted?
           
 3. Load activity (test and train), subject and feature info.  Read data from the files into the objects.
 
@@ -32,6 +32,12 @@ This is the course project for the Getting and Cleaning Data course on Coursera.
          
 6. Us the descriptive activity names to name the activities in the data set.
 
-         *
+         * Factorize variable activity in the data frame totalactivity using descriptive activity names
+         
+7. Appropriately label the column names in the dataset with descriptive variable names
+
+8. Create an independent tidy dataset that consists of the mean value of each subject and activity.
+
+Final output file is tidy_data.txt
          
  
