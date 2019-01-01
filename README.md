@@ -9,10 +9,9 @@ This is the course project for the Getting and Cleaning Data course on Coursera.
 1. Sets working directory to ./Coursera/ProgrammingAssignment3 
 
 2. Download the dataset if it does not alread exisit in the working directory
-          
-          * Bullet list
-          Check if zip file has already been downloaded to the working directory?
-          Check if the contents of the zip file have been extracted?
+         
+          * Check if zip file has already been downloaded to the working directory?
+          * Check if the contents of the zip file have been extracted?
           
 
           
