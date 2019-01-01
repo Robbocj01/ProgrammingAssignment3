@@ -13,7 +13,7 @@ This is the course project for the Getting and Cleaning Data course on Coursera.
          * Check if zip file has already been downloaded to the working directory?
          * Check if the contents of the zip file have been extracted?
           
-3. Load activity (test and train), subject and feature info.  Read data from the files into the objects.
+3. Load activity (test and train), subject and feature info.  Read data from the files.
 
          * Read the activity files.
          * Read the subject files.
