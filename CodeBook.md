@@ -20,6 +20,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 ## Data Files
 Files in folder ‘UCI HAR Dataset’ that will be used are:
+
           SUBJECT FILES
           test/subject_test.txt
           train/subject_train.txt
