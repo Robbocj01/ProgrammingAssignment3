@@ -46,7 +46,8 @@ The collection of the source data and the transformations listed above were impl
 ## Data Variables
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
           
-     Identifiers
+### Identifiers
+
           Subject
             Subject identifier, integer, ranges from 1 to 30.
           Activity
@@ -58,14 +59,15 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
                     STANDING: subject was standing
                     LAYING: subject was laying
 
+### Variables
+
 The measurements are classified in two domains:
 
 1. Time-domain signals (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw signals.
 
 2. Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform  (FFT) to some of the time-domain signals.
-     
-     
-     Variables
+
+
           Time Domain
                     timeDomainBodyAccelerometerMeanX
                     timeDomainBodyAccelerometerMeanY
