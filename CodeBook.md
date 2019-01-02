@@ -33,4 +33,11 @@ Files in folder ‘UCI HAR Dataset’ that will be used are:
           features.txt - Names of column variables in the dataTable
           activity_labels.txt - Links the class labels with their activity name.
 
+## Transformation details
+The following transformations of the data was undertaken:
 
+          Merges the training and the test sets to create one data set.
+          Extracts only the measurements on the mean and standard deviation for each measurement.
+          Uses descriptive activity names to name the activities in the data set
+          Appropriately labels the data set with descriptive activity names.
+          Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
