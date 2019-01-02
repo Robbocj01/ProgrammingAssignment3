@@ -3,7 +3,7 @@
 ## Overview
 This is a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
-The data set that this code book pertains to is located in the tidy_data.txt file of this repository. See the README.md file of this repository for background information on this data set.
+The data set that this code book describes is located in the tidy_data.txt file of this repository. See the README.md file of this repository for background information on this data set.
 
 ## Dataset
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
@@ -35,11 +35,11 @@ Files in folder ‘UCI HAR Dataset’ that will be used are:
 ## Transformation details
 The following transformations of the data was undertaken:
 
-          Merges the training and the test sets to create one data set
-          Extracts only the measurements on the mean and standard deviation for each measurement
-          Uses descriptive activity names to name the activities in the data set
-          Appropriately labels the data set with descriptive activity names
-          Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+          1. Merges the training and the test sets to create one data set
+          2. Extracts only the measurements on the mean and standard deviation for each measurement
+          3. Uses descriptive activity names to name the activities in the data set
+          4. Appropriately labels the data set with descriptive activity names
+          5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 The collection of the source data and the transformations listed above were implemented by the run_analysis.R script (see README.md file for usage instructions).
 
