@@ -42,4 +42,4 @@ The following transformations of the data was undertaken:
           Appropriately labels the data set with descriptive activity names
           Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
-Full details can be found in the README.md file
+The collection of the source data and the transformations listed above were implemented by the run_analysis.R script (see README.md file for usage instructions).
