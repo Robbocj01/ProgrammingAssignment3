@@ -7,7 +7,7 @@ The data set that this code book pertains to is located in the tidy_data.txt fil
 See the README.md file of this repository for background information on this data set.
 
 ## Dataset
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -32,3 +32,5 @@ Files in folder ‘UCI HAR Dataset’ that will be used are:
           train/y_train.txt
           features.txt - Names of column variables in the dataTable
           activity_labels.txt - Links the class labels with their activity name.
+
+
