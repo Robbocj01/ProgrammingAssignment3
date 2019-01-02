@@ -43,3 +43,18 @@ The following transformations of the data was undertaken:
 
 The collection of the source data and the transformations listed above were implemented by the run_analysis.R script (see README.md file for usage instructions).
 
+## Data Variables
+Each row contains, for a given subject and activity, 79 averaged signal measurements.
+
+Identifiers
+          Subject
+            Subject identifier, integer, ranges from 1 to 30.
+          Activity
+            Activity identifier, string with 6 possible values:
+                    WALKING: subject was walking
+                    WALKING_UPSTAIRS: subject was walking upstairs
+                    WALKING_DOWNSTAIRS: subject was walking downstairs
+                    SITTING: subject was sitting
+                    STANDING: subject was standing
+                    LAYING: subject was laying
+
