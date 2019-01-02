@@ -46,7 +46,7 @@ The collection of the source data and the transformations listed above were impl
 ## Data Variables
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
           
-          Identifiers
+     Identifiers
           Subject
             Subject identifier, integer, ranges from 1 to 30.
           Activity
