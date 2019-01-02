@@ -57,6 +57,13 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
                     SITTING: subject was sitting
                     STANDING: subject was standing
                     LAYING: subject was laying
+
+The measurements are classified in two domains:
+
+1. Time-domain signals (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw signals.
+
+2. Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform  (FFT) to some of the time-domain signals.
+     
      Variables
           timeDomainBodyAccelerometerMeanX
           timeDomainBodyAccelerometerMeanY
